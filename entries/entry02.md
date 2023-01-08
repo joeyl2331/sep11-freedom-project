@@ -23,7 +23,7 @@ This shows:
 * = means grass
 * $ means coin
 * ^ means the gray spikes
-→ > means the portal
+* (>) means the portal
 
 ### Setup
 After I looked at the different examples inside the playground, I went to code.js to set up my code and tinker there. I set up my code by using the CDN. I copied and pasted this code into the JS section of the HTML.
