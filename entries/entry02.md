@@ -16,7 +16,9 @@ const LEVELS = [
 ]
 ```
 This shows:
+
  ![img of scene](../tinker-img/scene.png)
+
 → @ means bean
 → = means grass
 → $ means coin
@@ -100,7 +102,7 @@ Result of code:
 * text() : renders text (Includ inside add())
 * loadSprite() ：
 → Helps load the sprite
-→ The format to load the sprite is: `loadsprite(“name-of-sprite”, “/folder-for-the-sprites/sprite-link(.jpg/.png”)`
+→ The format to load the sprite is: `loadsprite(“name-of-sprite”, “/folder-for-the-sprites/sprite-link(.jpg/.png”)`                 
 * onKeyDown() : runs when the arrow key is pressed (left, up, right, down)
 * rect(x,y) : Render as a rectangle (x is width, y is height)
 * circlex() : render as circle (x is radius of the circle)
