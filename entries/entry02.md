@@ -19,10 +19,10 @@ This shows:
 
  ![img of scene](../tinker-img/scene.png)
 
-* @ means bean
-* = means grass
-* $ means coin
-* ^ means the gray spikes
+* (@) means bean
+* (=) means grass
+* ($) means coin
+* (^) means the gray spikes
 * (>) means the portal
 
 ### Setup
