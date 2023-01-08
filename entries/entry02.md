@@ -15,7 +15,7 @@ const LEVELS = [
 	],
 ]
 ```
-This shows: 
+This shows: Like ![img of something](../tinker-img/scene.png)
 
 
 
