@@ -19,11 +19,11 @@ This shows:
 
  ![img of scene](../tinker-img/scene.png)
 
-→ @ means bean
-→ = means grass
-→ $ means coin
-→ ^ means the gray spikes
-→ > means the portal
+* @ means bean
+* = means grass
+* $ means coin
+* ^ means the gray spikes
+* > means the portal
 
 ### Setup
 After I looked at the different examples inside the playground, I went to code.js to set up my code and tinker there. I set up my code by using the CDN. I copied and pasted this code into the JS section of the HTML.
@@ -101,8 +101,8 @@ Result of code:
 * sprite() : renders images ( Include inside add())
 * text() : renders text (Includ inside add())
 * loadSprite() ：
-→ Helps load the sprite
-→ The format to load the sprite is: `loadsprite(“name-of-sprite”, “/folder-for-the-sprites/sprite-link(.jpg/.png”)`                 
+	* Helps load the sprite
+	* The format to load the sprite is: `loadsprite(“name-of-sprite”, “/folder-for-the-sprites/sprite-link(.jpg/.png”)`
 * onKeyDown() : runs when the arrow key is pressed (left, up, right, down)
 * rect(x,y) : Render as a rectangle (x is width, y is height)
 * circlex() : render as circle (x is radius of the circle)
