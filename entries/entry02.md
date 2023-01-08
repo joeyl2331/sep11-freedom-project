@@ -70,6 +70,7 @@ add([
  → the blue on the bottom (platform)
 
 The height of the platform can be made bigger by changing the number of the width larger. If the height is bigger than the width, then the platform will shift upwards and will not start at the bottom of the page.
+
 EX:
 ```java
     rect(width(), 78),
