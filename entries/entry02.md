@@ -108,7 +108,8 @@ Result of code:
 * rect(x,y) : Render as a rectangle (x is width, y is height)
 * circlex() : render as circle (x is radius of the circle)
 
-
+### Goals for winter break
+Trying to change the background of the page and try to use the symbols as a shortcut for the scenes.
 
 
 ### EDP
