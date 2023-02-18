@@ -1,7 +1,11 @@
 # Entry 3
-##### X/X/XX
+##### 2/13/2023
 
-Text
+### Context
+
+### EDP
+
+### Skills
 
 [Previous](entry02.md) | [Next](entry04.md)
 
