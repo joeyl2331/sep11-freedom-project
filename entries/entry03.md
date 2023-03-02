@@ -3,6 +3,13 @@
 
 ### Context
 
+![img of floor](../tinker-img/floor.png)
+
+![img of overlap](../tinker-img/overlap.png)
+
+![img of fixoverlap](../tinker-img/fixoverlap.png)
+
+![img of mariobody()](../tinker-img/mario.jpg)
 ### EDP
 
 ### Skills
