@@ -4,8 +4,47 @@
 ### Context
 After a few weeks of tinkering with kaboom, I have learned more information about how I can build my game. In my last blog, I wrote about how I went through the website and learned from examples shown in the Kaboom website. A goal that I talked about was exploring/learning more about the “scenes”.
 
+Part 1: Layers and sprites
+Part 1: Layers and sprites
+For this part of the video, I learned how to make the floor of the game by using symbols.
+First I will have to load in sprites.
+ If I want to load in sprites from an website, I would need to use `loadRoot()` (__) = The website that stores all the sprites needed
+	     loadRoot ('https://i.imgur.com/') // the pathway to access all the images needed for the sprite
+        loadSprite('coin', 'wbKxhcd.png') // the name you give the sprite, link to the sprite
+
+
+After that I constructed a map of the game using symbols:
+ const map = [
+                '                                       ',
+                '                                       ',
+                '                                       ',
+                '                                       ',
+                '                                       ',
+                '                                       ',
+                '                                       ',
+                '                                       ',
+                '                                       ',
+                '==============================  =======', // the floor of the game
+            ]
+
+
+I assign the sprite to a symbol
+const levelCfg = {
+                width: 20,
+                height: 20,
+                '=': [sprite('block'),solid()]
+            }
+→ the width and the height sets the size of the sprites
+→  the structure to assign the sprite to a symbol: [sprite(‘_sprite name__’),solid()]
+
+Then I would have
+`const gameLevel = addLevel(map,levelCfg)`
+→ this would mean passing through the first level (which is the variable map that consists of the map) and the variable levelCfg which consists of the process of assigning the sprite to the symbol.
+
+`addLevel` means construct the level based on the symbols
 
 ![img of floor](../tinker-img/floor.png)
+→ the result 
 
 ![img of overlap](../tinker-img/overlap.png)
 
