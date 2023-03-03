@@ -8,6 +8,7 @@ After a few weeks of tinkering with kaboom, I have learned more information abou
 For this part of the video, I learned how to make the floor of the game by using symbols.
 First I will have to load in sprites.
  If I want to load in sprites from an website, I would need to use `loadRoot()` (__) = The website that stores all the sprites needed
+ 
 →    `loadRoot ('https://i.imgur.com/') // the pathway to access all the images needed for the sprite`
 
 →   ` loadSprite('coin', 'wbKxhcd.png') // the name you give the sprite, link to the sprite`
