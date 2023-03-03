@@ -77,6 +77,35 @@ const player = add([
 ![img of mariobody()](../tinker-img/mariobody.png)
 
 → The first image does not use `body()` therefore it stays still in one position but the second image uses `body()` therefore the sprite jumps from its original position
+
+### Part 4: Keyboard events
+* Learned how to move the sprite in the direction that you want by pressing the keys on the keyboard.
+* `keyDown()` runs every frame when a key is held down.
+* `keyPress()` runs when the user presses a certain key.
+
+Example:
+```java
+keyDown('left', () => {
+                player.move(-120, 0)
+            })
+```
+
+→when the left arrow is pressed, the user moves left. (However the sprite will move in the right direction when the x value is positive
+
+### Part 6: Coin and mushroom
+When the sprite touches that object then that object gets destroyed. In this scenario when the head of the mario touches the surprise box, then the coin will appear ($ = coin)
+```java
+player.on("headbump", (obj) => {
+                if (obj.is('coin-surprise')){
+                    gameLevel.spawn('$', obj.gridPos.sub(0,1))
+                    destroy(obj)
+                }
+            })
+```
+
+→ Spawn means the object appearing at a certain point in the game
+
+
 ### EDP
 I found this [video](https://www.youtube.com/watch?v=2nucjefSr6I) that teaches you how to create a game with Kaboom. This caught my eye because I am hoping that I will be able to learn more about scenes from this video.
 
