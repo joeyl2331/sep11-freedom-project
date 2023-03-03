@@ -111,6 +111,8 @@ player.on("headbump", (obj) => {
 
 → Spawn means the object appearing at a certain point in the game
 
+* collision
+
 ```java
 player.collides('coin', (c) => {
     destroy(c)
