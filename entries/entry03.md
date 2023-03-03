@@ -8,7 +8,7 @@ After a few weeks of tinkering with kaboom, I have learned more information abou
 For this part of the video, I learned how to make the floor of the game by using symbols.
 First I will have to load in sprites.
  If I want to load in sprites from an website, I would need to use `loadRoot()` (__) = The website that stores all the sprites needed
- 
+
 →    `loadRoot ('https://i.imgur.com/') // the pathway to access all the images needed for the sprite`
 
 →   ` loadSprite('coin', 'wbKxhcd.png') // the name you give the sprite, link to the sprite`
@@ -39,6 +39,7 @@ const levelCfg = {
             }
 ```
 → the width and the height sets the size of the sprites
+
 →  the structure to assign the sprite to a symbol: `[sprite(‘_sprite name__’),solid()]`
 
 Then I would have
@@ -47,8 +48,9 @@ Then I would have
 
 `addLevel` means construct the level based on the symbols
 
-![img of floor](../tinker-img/floor.png)
 → the result
+![img of floor](../tinker-img/floor.png)
+
 
 ![img of overlap](../tinker-img/overlap.png)
 
