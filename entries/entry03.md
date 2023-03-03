@@ -52,10 +52,9 @@ Then I would have
 ![img of floor](../tinker-img/floor.png)
 
 ### Part 2: placing sprites on the first level
-'(': [sprite('pipe-bottom-left'), solid(),scale(0.5)],
+`'(': [sprite('pipe-bottom-left'), solid(),scale(0.5)],`
 → scale() is being used when the sprites are overlapping each other
-
-EX: This
+ This
 ![img of overlap](../tinker-img/overlap.png)
 
 To this:
@@ -76,6 +75,7 @@ const player = add([
 
 ![img of marionobody()](../tinker-img/mario_nobody.png)
 ![img of mariobody()](../tinker-img/mariobody.png)
+
 → The first image does not use `body()` therefore it stays still in one position but the second image uses `body()` therefore the sprite jumps from its original position
 ### EDP
 I found this [video](https://www.youtube.com/watch?v=2nucjefSr6I) that teaches you how to create a game with Kaboom. This caught my eye because I am hoping that I will be able to learn more about scenes from this video.
