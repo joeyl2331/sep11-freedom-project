@@ -111,7 +111,16 @@ player.on("headbump", (obj) => {
 
 → Spawn means the object appearing at a certain point in the game
 
+```java
+player.collides('coin', (c) => {
+    destroy(c)
+    scoreLabel.value++
+    scoreLabel.text = scoreLabel.value
+  })
+```
+→ This code above is saying that when the sprite collides with the coin, then the coin will disappear (coin is being collected by the sprite)
 
+→ `scoreLabel.value++` means that when sprite collects a coin, a point will increase
 ### EDP + Skills
 The engineering design process I am at right now is “research the problem” because I am looking at tutorials and videos to help me better learn the tool. The skills I learned while learning my tool are “how to learn” and “attention to detail” because in order to learn more about scenes and how to apply it to my project, I would need to know what components are being applied to make the scene work. During the times where I am tinkering on Kaboom, I also encountered problems that made my code not function properly. The problems I made were minor such as confusing “{“ with “(“ or spelling errors. This results in me paying more attention to my code so I make the same mistakes twice and avoid code results not displaying.
 
