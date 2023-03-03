@@ -4,7 +4,13 @@
 ### Context
 After a few weeks of tinkering with kaboom, I have learned more information about how I can build my game. In my last blog, I wrote about how I went through the website and learned from examples shown in the Kaboom website. A goal that I talked about was exploring/learning more about the “scenes”.
 
-### Part 1: Layers and sprites
+I found this [video](https://www.youtube.com/watch?v=2nucjefSr6I) that teaches you how to create a game with Kaboom. This caught my eye because I am hoping that I will be able to learn more about scenes from this video.
+
+Below I have separated what I learned in different parts of the video
+
+------------------
+
+### Layers and sprites
 For this part of the video, I learned how to make the floor of the game by using symbols.
 First I will have to load in sprites.
  If I want to load in sprites from an website, I would need to use `loadRoot()` (__) = The website that stores all the sprites needed
@@ -51,7 +57,7 @@ Then I would have
 → the result
 ![img of floor](../tinker-img/floor.png)
 
-### Part 2: placing sprites on the first level
+### Placing sprites on the first level
 `'(': [sprite('pipe-bottom-left'), solid(),scale(0.5)],`
 → scale() is being used when the sprites are overlapping each other
  This
@@ -60,7 +66,7 @@ Then I would have
 To this:
 ![img of fixoverlap](../tinker-img/fixoverlap.png)
 
-### Part 3: Adding Mario
+### Adding Mario
 ```java
 const player = add([
                 sprite('mario'),solid(),
@@ -71,14 +77,14 @@ const player = add([
 ```
 → Using `add()` to add the sprite into the  game
 
-→ Using `body()` makes the sprite move
+→ Using `body()` makes the sprite move / give gravity to the sprite
 
 ![img of marionobody()](../tinker-img/mario_nobody.png)
 ![img of mariobody()](../tinker-img/mariobody.png)
 
 → The first image does not use `body()` therefore it stays still in one position but the second image uses `body()` therefore the sprite jumps from its original position
 
-### Part 4: Keyboard events
+### Keyboard events
 * Learned how to move the sprite in the direction that you want by pressing the keys on the keyboard.
 * `keyDown()` runs every frame when a key is held down.
 * `keyPress()` runs when the user presses a certain key.
@@ -92,7 +98,7 @@ keyDown('left', () => {
 
 →when the left arrow is pressed, the user moves left. (However the sprite will move in the right direction when the x value is positive
 
-### Part 6: Coin and mushroom
+### Coin and mushroom
 When the sprite touches that object then that object gets destroyed. In this scenario when the head of the mario touches the surprise box, then the coin will appear ($ = coin)
 ```java
 player.on("headbump", (obj) => {
@@ -104,10 +110,6 @@ player.on("headbump", (obj) => {
 ```
 
 → Spawn means the object appearing at a certain point in the game
-
-
-### EDP
-I found this [video](https://www.youtube.com/watch?v=2nucjefSr6I) that teaches you how to create a game with Kaboom. This caught my eye because I am hoping that I will be able to learn more about scenes from this video.
 
 
 ### EDP + Skills
