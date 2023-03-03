@@ -8,8 +8,8 @@ After a few weeks of tinkering with kaboom, I have learned more information abou
 For this part of the video, I learned how to make the floor of the game by using symbols.
 First I will have to load in sprites.
  If I want to load in sprites from an website, I would need to use `loadRoot()` (__) = The website that stores all the sprites needed
-	     `loadRoot ('https://i.imgur.com/') // the pathway to access all the images needed for the sprite`
-       ` loadSprite('coin', 'wbKxhcd.png') // the name you give the sprite, link to the sprite`
+→    `loadRoot ('https://i.imgur.com/') // the pathway to access all the images needed for the sprite`
+→   ` loadSprite('coin', 'wbKxhcd.png') // the name you give the sprite, link to the sprite`
 
 After that, I constructed a map of the game using symbols:
 ```java
@@ -43,7 +43,7 @@ Then I would have
 `const gameLevel = addLevel(map,levelCfg)`
 → this would mean passing through the first level (which is the variable map that consists of the map) and the variable levelCfg which consists of the process of assigning the sprite to the symbol.
 
-`addLevel` means construct the level based on the symbols          
+`addLevel` means construct the level based on the symbols
 
 ![img of floor](../tinker-img/floor.png)
 → the result
