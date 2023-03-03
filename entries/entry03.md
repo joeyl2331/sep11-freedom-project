@@ -6,7 +6,7 @@ After a few weeks of tinkering with kaboom, I have learned more information abou
 
 I found this [video](https://www.youtube.com/watch?v=2nucjefSr6I) that teaches you how to create a game with Kaboom. This caught my eye because I am hoping that I will be able to learn more about scenes from this video.
 
-Below I have separated what I learned in different parts of the video
+Below I have separated what I learned in different parts of the video:
 
 ------------------
 
