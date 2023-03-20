@@ -2,7 +2,10 @@
 ##### X/X/XX
 
 Text
-![owl](https://user-images.githubusercontent.com/91750669/226217681-9d03320d-3664-4595-b03e-09af4c8e9902.png)
+
+![pixil-frame-0 (3)](https://user-images.githubusercontent.com/91750669/226218660-a69bc789-a940-4ad0-94fb-8a5944af9833.png)
+
+
 
 
 [Previous](entry03.md) | [Next](entry05.md)
