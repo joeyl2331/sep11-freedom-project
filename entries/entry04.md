@@ -13,7 +13,7 @@ Owl, door, koala, key, coin, and block
 ![koala](https://user-images.githubusercontent.com/91750499/226217471-cc73ab54-22c8-475f-9af4-61c250ae4ff9.png)
 ![key](https://user-images.githubusercontent.com/91750499/226219003-17be3e4a-09d4-45e3-9953-86491ddd1bd9.png)
 ![coin](https://user-images.githubusercontent.com/91750499/226217476-38f84490-37f2-41d3-8479-7c0b793ca6b1.png)
-
+![block](https://user-images.githubusercontent.com/91750499/229367777-302639bb-34e6-4045-8bb8-59353841acd9.png)
 
 [Previous](entry03.md) | [Next](entry05.md)
 
