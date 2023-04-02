@@ -4,8 +4,7 @@
 ### Content
 During the past few weeks, I have been continuing to learn my tool. I started working towards the MVP (minimum viable product) for my freedom project by first creating the sprites needed for my game.
 
-
-Me and my partner used ![pixelart](https://www.pixilart.com/) to create the sprites.
+Me and my partner used [pixelart](https://www.pixilart.com/) to create the sprites.   
 The sprites we created are:  
 Owl, door, koala, key, coin, and block
 
