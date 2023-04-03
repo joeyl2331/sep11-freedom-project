@@ -49,7 +49,7 @@ From the code on the [website](https://kaboomjs.com/doc/21-scenes), I see that b
 ```
 
 ### EDP + Skills
-The engineering design process I am at right now is ""
+The engineering design process I am at right now is “research the problem” because I am continuing on looking at information that will be helpful to creating the game of my freedom project. A skill I learned while learning my tool is “communication”. By having good communication with my partner, I noticed an efficiency in finishing my work. Another skill I learned is “how to google” because knowing what to google can help me better understand the code that I am confused about.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
