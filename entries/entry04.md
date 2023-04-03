@@ -48,7 +48,7 @@ From the code on the [website](https://kaboomjs.com/doc/21-scenes), I see that b
 		}
 	})
 ```
-### The losing scene
+#### The losing scene
 ```java
 // when the sprite fall off the block or touch the spike that it is not supposed to
 	player.onUpdate(() => {
