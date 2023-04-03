@@ -31,6 +31,7 @@ const levels = [
 -> Inside the brackets labled "level 1" and "level 2" is where I would format how the game looks by adding in the symbols (representing the sprites)
 
 From the code on the [website](https://kaboomjs.com/doc/21-scenes), I see that by using `onCollide()`, the player can move to the next level when their sprite touches a specific object.  
+#### The winning scene
 ```java
 // when the sprite touches the portal in the game
 	player.onCollide("portal", () => {
@@ -47,7 +48,25 @@ From the code on the [website](https://kaboomjs.com/doc/21-scenes), I see that b
 		}
 	})
 ```
+### The losing scene
+```java
+// when the sprite fall off the block or touch the spike that it is not supposed to
+	player.onUpdate(() => {
+		if (player.pos.y >= 480) {
+			go("lose") // goes to the lose scene
+		}
+	})
+```
 
+From the website I also saw how the scores can be updated
+```java
+player.onCollide("coin", (coin) => { 
+		destroy(coin) // when the sprite touches "coin", "coin" gets removed from the scene
+		play("score") // play() means sound being played
+		score++ // score increases
+		scoreLabel.text = score // the score gets updated (ex: 1 coin colleted = + 1 to score)
+	})
+```
 ### EDP + Skills
 The engineering design process I am at right now is “research the problem” because I am continuing on looking at information that will be helpful to creating the game of my freedom project. A skill I learned while learning my tool is “communication”. By having good communication with my partner, I noticed an efficiency in finishing my work. Another skill I learned is “how to google” because knowing what to google can help me better understand the code that I am confused about.
 
