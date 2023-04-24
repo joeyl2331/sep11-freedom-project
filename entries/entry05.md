@@ -2,7 +2,7 @@
 ##### 4/22/23
 
 ### Content
-By now me and my partner have finished learning about the key componenets from Kaboom that we needed to build our freedom project game. From the [Freedom Project MVP Plan](https://docs.google.com/document/d/1szrDrbG5V1n9tMBLlT8e83kK7NH4SLwHRD-YPeLCInE/edit) our goal was to make sure that we have a working game before April 17th. 
+By now me and my partner have finished learning about the key components from Kaboom that we needed to build our freedom project game. From the [Freedom Project MVP Plan](https://docs.google.com/document/d/1szrDrbG5V1n9tMBLlT8e83kK7NH4SLwHRD-YPeLCInE/edit) our goal was to make sure that we have a working game before April 17th. 
 
 ### Finalizing Game
 #### Step 1
