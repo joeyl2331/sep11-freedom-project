@@ -14,12 +14,7 @@ For my project, I am making a platformer game where the goal is for players to c
 [Presentation](https://docs.google.com/presentation/d/1FpO-C7nIJPvUqXbL06BDwJoHZ42De3VwB8euvCJHdwM/edit#slide=id.g243974dd3c0_0_1903)
 
 ## Implications
-The game that I created has both negative and po impacts on society. The positive impact would be
-
-Negative: 
-As the world is advancing, technology is too. There has been a huge compettion in the field of technology. There are more and more games devolping which makes people to lose focus in their work and being addicted to playing games instead.
-
-However there are also positive impacts too. 
+The game that I created has both negative and positive impacts on society. It contributes to the categories of global, social, and economic. The game has a global impact because instead of people wasting paper to play games like tic tac-toe and hangman on it, they can save paper and play games on either their phone, computer, or tablet. The game has a social impact because it can make people happy when they play together with their friends. The game has economic impact because as the world is advancing, technology is too. This means that more money is earned from games being created. However there are also negative impacts of games. There is going to be more competition in the creation of games. More games can make some people lose focus in their work and become addicted to playing games instead. 
 
 ---
 
