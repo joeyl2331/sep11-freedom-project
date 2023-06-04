@@ -1,20 +1,25 @@
 # SEP11 Freedom Project
-by X
+by Joey Lin
 
 ## Context
 The "Freedom Project" for SEP11 is all about X. The purpose of this blog is to X.
 
 ## Content
-For my project, I am making X. This blog will walk through my process of independently studying X in order to make X.
+For my project, I am making a platformer game where the goal is for players to collect keys and avoid touching the enemy to successfully go to the next level. This blog will walk through my process of independently studying [KaboomJs](https://kaboomjs.com/) in order to make my platformer game.
 
 ## Links
 
-Product
+[Product](https://kaboommvp.joeyl2331.repl.co/)
 
-Presentation
+[Presentation](https://docs.google.com/presentation/d/1FpO-C7nIJPvUqXbL06BDwJoHZ42De3VwB8euvCJHdwM/edit#slide=id.g243974dd3c0_0_1903)
 
 ## Implications
-X
+The game that I created has both negative and po impacts on society. The positive impact would be
+
+Negative: 
+As the world is advancing, technology is too. There has been a huge compettion in the field of technology. There are more and more games devolping which makes people to lose focus in their work and being addicted to playing games instead.
+
+However there are also positive impacts too. 
 
 ---
 
