@@ -2,10 +2,10 @@
 by Joey Lin
 
 ## Context
-The "Freedom Project" for SEP11 is all about X. The purpose of this blog is to X.
+The "Freedom Project" for SEP11 is all about students using what they learned about javascript and the tool that they picked from the beginning of the year to make an interactive product. The purpose of this blog is for students to record down the process of everything they learned this year to fully understand the concept of their tool so that they can successfully create the final interactive project.
 
 ## Content
-For my project, I am making a platformer game where the goal is for players to collect keys and avoid touching the enemy to successfully go to the next level. This blog will walk through my process of independently studying [KaboomJs](https://kaboomjs.com/) in order to make my platformer game.
+For my project, I am making a platformer game where in order for the user to successfully go to the next level, they would need to avoid touching the enemy and collect key. This blog will walk through my process of independently studying [KaboomJs](https://kaboomjs.com/) in order to make my platformer game.
 
 ## Links
 
